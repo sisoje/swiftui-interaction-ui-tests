@@ -35,7 +35,7 @@ Generates Xcode project with XcodeGen, picks first available iPhone simulator, a
 - `SharedCode/` - `TestView` struct and extensions (shared between app and tests)
 - `AppCode/` - SwiftUI app that renders test views
 - `TestCode/` - XCTest UI tests
-- `LogFiles/` - Interaction log snapshots for verification
+- `Snapshots/` - Interaction log snapshots for verification
 - `project.yml` - XcodeGen project definition
 
 ## Requirements

@@ -18,6 +18,6 @@ extension URL {
         URL(fileURLWithPath: #filePath)
             .deletingLastPathComponent()
             .deletingLastPathComponent()
-            .appendingPathComponent("LogFiles")
+            .appendingPathComponent("Snapshots")
     }
 }
