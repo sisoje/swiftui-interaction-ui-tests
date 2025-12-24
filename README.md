@@ -1,4 +1,4 @@
-# SwiftUI Interaction Tests
+# SwiftUI Interaction UI Tests
 
 > Snapshot testing, but for actions.
 
