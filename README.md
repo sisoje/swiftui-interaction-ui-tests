@@ -4,6 +4,10 @@
 
 A starter template for SwiftUI functional core testing. Clone it, drop it into your project, and customize it to test your views. Tests define views as codable structs, actions are captured as text snapshots, and tests verify the snapshots match saved ones.
 
+## ⚠️ Warning
+
+If your project uses MVVM, these tests won't help you. Your functional core is buried in ViewModels, not Views. You'd need to restructure your project to benefit from this approach.
+
 ## Action Snapshots
 
 Runs in an XCTest UI test target, but it does not check visuals/screenshots. Snapshots are **plain-text action logs**: taps, state changes, effects, lifecycle events.
